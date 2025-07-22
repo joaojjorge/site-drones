@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pré-Reserva - Roadster FPV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4rem 2rem;
+      }
+
+      h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.25rem;
+        color: #ccc;
+        margin-bottom: 2rem;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .price {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+      }
+
+      .btn {
+        padding: 1rem 3rem;
+        border-radius: 9999px;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: white;
+        color: black;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .btn:hover {
+        background-color: #ccc;
+      }
+
+      .back {
+        display: inline-block;
+        margin-top: 3rem;
+        color: #888;
+        text-decoration: underline;
+        font-size: 0.9rem;
+      }
+
+      .back:hover {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pré-Reserva Roadster FPV</h1>
+    <p>Garante já o teu lugar na linha da frente. O drone mais rápido de Portugal está a chegar.</p>
+    <div class="price">Reserva: 2500€</div>
+    <button class="btn" onclick="alert('Reserva simulada! Obrigado por acreditar no futuro.')">Pré-Reservar Agora</button>
+
+    <div>
+      <a class="back" href="index.html">← Voltar ao início</a>
+    </div>
+  </body>
+</html>
